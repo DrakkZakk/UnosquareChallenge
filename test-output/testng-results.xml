@@ -1,72 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18668" started-at="2021-03-18T19:40:48 CST" finished-at="2021-03-18T19:41:06 CST">
+  <suite name="Suite" duration-ms="36177" started-at="2021-03-18T19:54:28 CST" finished-at="2021-03-18T19:55:04 CST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18668" started-at="2021-03-18T19:40:48 CST" finished-at="2021-03-18T19:41:06 CST">
+    <test name="Test" duration-ms="36177" started-at="2021-03-18T19:54:28 CST" finished-at="2021-03-18T19:55:04 CST">
       <class name="ChallengeTest.Unosquare.AmazonTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ChallengeTest.Unosquare.AmazonTest@4b1c1ea0]" name="setUp" is-config="true" duration-ms="3175" started-at="2021-03-18T19:40:48 CST" finished-at="2021-03-18T19:40:51 CST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ChallengeTest.Unosquare.AmazonTest@15d0c81b]" name="setUp" is-config="true" duration-ms="3332" started-at="2021-03-18T19:54:28 CST" finished-at="2021-03-18T19:54:31 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="firstTestCase(java.lang.String, java.lang.String)[pri:1, instance:ChallengeTest.Unosquare.AmazonTest@4b1c1ea0]" name="firstTestCase" duration-ms="185" started-at="2021-03-18T19:40:51 CST" data-provider="dp" finished-at="2021-03-18T19:40:51 CST">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void ChallengeTest.Unosquare.AmazonTest.firstTestCase(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: firstTestCase([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) https://amazon.com,Samsung Galaxy Note 10,Echo]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void ChallengeTest.Unosquare.AmazonTest.firstTestCase(java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: firstTestCase([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
-Arguments: [(java.lang.String) https://amazon.com,Samsung Galaxy Note 10,Echo]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:925)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstTestCase -->
-        <test-method status="PASS" signature="secondTestCase(java.lang.String)[pri:2, instance:ChallengeTest.Unosquare.AmazonTest@4b1c1ea0]" name="secondTestCase" duration-ms="14883" started-at="2021-03-18T19:40:51 CST" data-provider="dp" finished-at="2021-03-18T19:41:06 CST">
+        <test-method status="PASS" signature="firstTestCase(java.lang.String)[pri:1, instance:ChallengeTest.Unosquare.AmazonTest@15d0c81b]" name="firstTestCase" duration-ms="20578" started-at="2021-03-18T19:54:31 CST" data-provider="dp" finished-at="2021-03-18T19:54:52 CST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[https://amazon.com,Samsung Galaxy Note 10,Echo]]>
+                <![CDATA[https://amazon.com,Samsung Galaxy Note 20,Echo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestCase(java.lang.String)[pri:2, instance:ChallengeTest.Unosquare.AmazonTest@15d0c81b]" name="secondTestCase" duration-ms="7898" started-at="2021-03-18T19:54:52 CST" data-provider="dp" finished-at="2021-03-18T19:55:00 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://amazon.com,Samsung Galaxy Note 20,Echo]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestCase -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ChallengeTest.Unosquare.AmazonTest@4b1c1ea0]" name="closeBrowser" is-config="true" duration-ms="344" started-at="2021-03-18T19:41:06 CST" finished-at="2021-03-18T19:41:06 CST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ChallengeTest.Unosquare.AmazonTest@15d0c81b]" name="closeBrowser" is-config="true" duration-ms="4263" started-at="2021-03-18T19:55:00 CST" finished-at="2021-03-18T19:55:04 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
